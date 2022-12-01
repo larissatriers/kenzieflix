@@ -11,6 +11,7 @@ body{
 }
 h3{
     color:whitesmoke;
+    margin:3em;
 }
 .container-perfil{
     display: flex;
@@ -21,15 +22,21 @@ h3{
     display: flex;
     width: 160px;
     flex-direction: column;
+    margin: 5px;
 }
 .perfil img{
     display: block;
     margin: auto;
     border-radius: 8px;
+    border: 1px solid transparent;
 }
 .perfil img:hover{
     border: 1px solid whitesmoke;
     border-radius: 8px;
+}
+.common-img{
+    width: 160px;
+    height: 160px;
 }
 .perfil p{
     color: whitesmoke;
