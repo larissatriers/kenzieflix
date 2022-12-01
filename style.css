@@ -1,15 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@100;300;400&display=swap');
 body{
-
-}
-main{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: black;
 }
 .container{
     display: flex;
     align-items: center;
     flex-flow: column wrap ;
-    border: solid white 2px;
-    margin: 10px
 }
 h3{
     color:whitesmoke;
@@ -18,26 +16,41 @@ h3{
     display: flex;
     width: 700px;
     justify-content: space-between;
-    border: 2px solid white;
 }
 .perfil{
     display: flex;
     width: 160px;
     flex-direction: column;
-    border: 2px lightgreen solid;
 }
 .perfil img{
     display: block;
     margin: auto;
+    border-radius: 8px;
 }
-.perfil imag:hover{
-    
+.perfil img:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
 }
-
 .perfil p{
     color: whitesmoke;
     text-align: center;
 }
+.image-box{
+    border-radius: 8px;
+    background-color: rgba(246, 240, 240, 0.111);
+}
+.add-img{
+    padding:47px;
+}
 .container button{
-
+    background-color: black;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding: 1em 3em 1em 3em;
+    border-radius: 8px;
+    margin-top: 5em;
+}
+.container button:hover{
+    background-color: whitesmoke;
+    color:black
 }
