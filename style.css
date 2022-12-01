@@ -1,0 +1,43 @@
+body{
+
+}
+main{
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap ;
+    border: solid white 2px;
+    margin: 10px
+}
+h3{
+    color:whitesmoke;
+}
+.container-perfil{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+.perfil{
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    border: 2px lightgreen solid;
+}
+.perfil img{
+    display: block;
+    margin: auto;
+}
+.perfil imag:hover{
+    
+}
+
+.perfil p{
+    color: whitesmoke;
+    text-align: center;
+}
+.container button{
+
+}
